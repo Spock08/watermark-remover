@@ -1,18 +1,6 @@
-# Readme.md
+# Water Mark Remover
 
-## Water Mark Remover
-
-
-### Instalación de Librerías
-
-`pip install pandas`
-
-`pip install pikepdf`
-
-`pip install PyPDF2`
-
-
-### Padrón Electoral chileno con PyPDF2 + tabula
+## Padrón Electoral chileno con PyPDF2 + tabula
 
 Recientemente, SERVEL ha incorporado la siguiente marca de agua en el Padrón Electoral chileno:
 
@@ -28,6 +16,37 @@ Como modelo de juguete, se ha generado un padrón "file_test.pdf" sin nombres re
 
 `<link>` : <https://www.servel.cl/padron-electoral-definitivo-y-nomina-de-inhabilitados-3>
 
-<img src = "images/WaterMark.png">
+
+## Librerías necesarias
+
+### pikepdf
+`pip install pikepdf`
+
+pikepdf se emplea para abrir algunos archivos pdf con cierta encriptación no disponible aún en PyPDF2.
+
+### PyPDF2
+`pip install PyPDF2`
+
+PyPDF2 se utiliza para abrir los archivos, eliminar la información no deseada y luego escribir un archivo de salida sin marca de agua.
+
+### tqdm
+`pip install tqdm`
+
+tqdm ayuda a visualizar los tiempos de cada iteración y el progreso del programa.
+
+### Pandas
+`pip install pandas`
+
+pandas es una librería para la manipulación y el análisis de los datos.
+
+
+### tabula
+`pip install tabula`
+
+tabula nos permite extraer las tablas contenidas dentro de archivos .pdf .
+
+## Resultados
+
+<img src = "images/WaterMark_Removed.png">
 
 En construcción

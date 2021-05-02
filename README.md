@@ -1,5 +1,11 @@
 # Water Mark Remover
 
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
 ## Padrón Electoral chileno con PyPDF2 + tabula
 
 Recientemente, SERVEL ha incorporado la siguiente marca de agua en el Padrón Electoral chileno:

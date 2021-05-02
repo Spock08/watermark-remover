@@ -47,6 +47,15 @@ tabula nos permite extraer las tablas contenidas dentro de archivos .pdf .
 
 ## Resultados
 
+El uso de este cuaderno da como resultado un archivo .pdf sin la marca de agua y luce de la siguiente forma:
+
 <img src = "images/WaterMark_Removed.png">
 
-En construcción
+Finalmente podemos alojar la información del pdf en un data frame .csv .
+
+<img src = "images/DataFrame.png">
+
+
+
+
+En construcción...
